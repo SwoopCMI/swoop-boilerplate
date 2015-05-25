@@ -126,4 +126,4 @@ Now when you run the development instead of going to localhost open: `http://{{y
 MIT
 
 ## Credits
-All this is possible, thanks to the original author [@HenrikJoreteg](http://twitter.com/henrikjoreteg) who published the basis for th is boilerplate to https://github.com/henrikjoreteg/hjs-webpack
+All this is possible, thanks to the original author [@HenrikJoreteg](http://twitter.com/henrikjoreteg) who published the basis for this boilerplate to https://github.com/henrikjoreteg/hjs-webpack
