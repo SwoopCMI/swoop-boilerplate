@@ -1,0 +1,24 @@
+{
+  "name": "swoop-boilerplate",
+  "description": "Presets for setting up webpack with hotloading and ES6(2015) using Babel and Flow.",
+  "version": "0.1.0",
+  "author": "Daniele Zannotti <dan@weareswoop.com>",
+  "bugs": {
+    "url": "https://github.com/SwoopCMI/swoop-boilerplate/issues"
+  },
+  "homepage": "https://github.com/SwoopCMI/swoop-boilerplate",
+  "keywords": [
+    "config",
+    "swoop",
+    "webpack"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "webpack-dev-servver": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SwoopCMI/swoop-boilerplate"
+  }
+}
