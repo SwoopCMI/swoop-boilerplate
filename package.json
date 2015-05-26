@@ -17,6 +17,9 @@
   "peerDependencies": {
     "babel": "*",
     "babel-loader": "*",
+    "babel-core": "*",
+    "babel-runtime": "*",
+    "node-libs-browser": "*",
     "react-hot-loader": "*",
     "jsx-loader": "*",
     "webpack-dev-server": "*",
