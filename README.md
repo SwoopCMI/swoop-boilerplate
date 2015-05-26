@@ -40,10 +40,10 @@ var getConfig = require("swoop-boilerplate");
 var env = process.env.NODE_ENV || "development";
 
 module.exports = getConfig({
-  // a boolean specifying whether to minify, output files, etc
-  isDev: env === "development",
-  // entry point for the app
-  in: "source/app.js"
+    // a boolean specifying whether to minify, output files, etc
+    isDev: env === "development",
+    // entry point for the app
+    in: "source/app.js"
 });
 
 ```
