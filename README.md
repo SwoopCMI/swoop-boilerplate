@@ -107,6 +107,9 @@ Hotloading makes this extremely nice and convenient.
 If you're on a mac, this is fairly simple. Just add a `hostname` option to your config like so:
 
 ```js
+var getConfig = require("swoop-boilerplate");
+var env = process.env.NODE_ENV || "development";
+
 module.exports = getConfig({
     isDev: env === 'development',
     in: 'src/app.js',
