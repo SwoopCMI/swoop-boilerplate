@@ -23,8 +23,7 @@
     "react": "^0.13.3",
     "react-hot-loader": "^1.2.7",
     "webpack": "^1.9.10",
-    "webpack-dev-server": "^1.9.0",
-    "babel-plugin-typecheck": "dzannotti/babel-plugin-typecheck"
+    "webpack-dev-server": "^1.9.0"
   },
   "dependencies": {
     "lodash.assign": "^3.1.0",
