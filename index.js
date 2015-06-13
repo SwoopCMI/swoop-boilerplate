@@ -52,7 +52,7 @@ module.exports = function (opts) {
             }
             var newResource = spec.replace[item]
             if (typeof newResource === "string") {
-                newResource = path.resolve(newResource)
+                newResource = require.resolve(newResource)
             }
             config.plugins.push(new webpack.NormalModuleReplacementPlugin(regex, newResource))
         }
