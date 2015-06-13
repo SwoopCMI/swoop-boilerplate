@@ -1,7 +1,7 @@
 {
   "name": "swoop-boilerplate",
   "description": "Presets for setting up webpack with hotloading and ES6(2015) using Babel and Flow.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Daniele Zannotti <dan@weareswoop.com>",
   "bugs": {
     "url": "https://github.com/SwoopCMI/swoop-boilerplate/issues"
@@ -23,8 +23,7 @@
     "react": "^0.13.3",
     "react-hot-loader": "^1.2.7",
     "webpack": "^1.9.10",
-    "webpack-dev-server": "^1.9.0",
-    "babel-plugin-typecheck": "dzannotti/babel-plugin-typecheck"
+    "webpack-dev-server": "^1.9.0"
   },
   "dependencies": {
     "lodash.assign": "^3.1.0",
