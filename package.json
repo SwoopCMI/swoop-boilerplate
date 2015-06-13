@@ -19,7 +19,7 @@
     "babel-loader": "*",
     "babel-core": "*",
     "babel-runtime": "*",
-    "babel-plugin-typecheck": "*",
+    "babel-plugin-typecheck": "dzannotti/babel-plugin-typecheck",
     "node-libs-browser": "*",
     "react-hot-loader": "*",
     "jsx-loader": "*",
