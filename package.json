@@ -23,7 +23,8 @@
     "react": "^0.13.3",
     "react-hot-loader": "^1.2.7",
     "webpack": "^1.9.10",
-    "webpack-dev-server": "^1.9.0"
+    "webpack-dev-server": "^1.9.0",
+    "node-fs-extra": "^0.8.1"
   },
   "dependencies": {
     "lodash.assign": "^3.1.0",
