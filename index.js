@@ -88,7 +88,8 @@ module.exports = function (opts) {
         // add dev plugins
         config.plugins = config.plugins.concat([
             new webpack.HotModuleReplacementPlugin(),
-            new webpack.NoErrorsPlugin()
+            new webpack.NoErrorsPlugin(),
+            new webpack.DefinePlugin(defaults(spec.definePlugin || {}, {}))
         ])
 
         // add react-hot as module loader
@@ -108,11 +109,11 @@ module.exports = function (opts) {
                 },
                 sourceMap: false
             }),
-            new webpack.DefinePlugin({
+            new webpack.DefinePlugin(defaults(spec.definePlugin || {}, {
                 "process.env": {
                     NODE_ENV: JSON.stringify("production")
                 }
-            })
+            }))
         )
         config.externals = {
             "react": "React",
