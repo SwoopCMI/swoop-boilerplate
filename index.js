@@ -122,7 +122,7 @@ module.exports = function (opts) {
         };
     }
     if(typeof spec.loaders !== "undefined") {
-        config.module.loaders.push(spec.loaders);
+        config.module.loaders = config.module.loaders.concat(spec.loaders);
     }
     return config;
 }
