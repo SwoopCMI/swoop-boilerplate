@@ -18,6 +18,7 @@ module.exports = function (opts) {
             hash: false,
             publicPath: "/"
         }),
+        target: "browser",
         configFile: null,
         isDev: true,
         package: null,
