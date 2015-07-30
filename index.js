@@ -94,7 +94,7 @@ module.exports = function (opts) {
         ])
 
         // add react-hot as module loader
-        config.module.loaders[0].loaders.unshift("react-hot")
+        config.module.loaders[0].loaders.unshift("react-hot?errorReporter=redbox-react");
 
     } else {
         // minify in production
