@@ -20,9 +20,9 @@
     "babel-runtime": "^5.5.6",
     "git-validate": "^1.2.1",
     "node-libs-browser": "^0.5.2",
-    "react": "^0.14.0-beta1",
-    "react-dom": "^0.14.0-beta1",
-    "react-hot-loader": "^1.2.7",
+    "react": "0.14.0-beta1",
+    "react-dom": "0.14.0-beta1",
+    "react-hot-loader": "davidpfahler/react-hot-loader#error-reporter",
     "webpack": "^1.9.10",
     "webpack-dev-server": "^1.9.0",
     "node-fs-extra": "^0.8.1"

@@ -90,6 +90,7 @@ module.exports = function (opts) {
         config.plugins = config.plugins.concat([
             new webpack.HotModuleReplacementPlugin(),
             new webpack.NoErrorsPlugin(),
+            new WebpackErrorNotificationPlugin(),
             new webpack.DefinePlugin(defaults(spec.definePlugin || {}, {}))
         ])
 
