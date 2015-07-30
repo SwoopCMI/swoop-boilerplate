@@ -26,7 +26,7 @@ If no one uses it but me, it will have still served its purpose.
 
 ```
 npm init
-npm install -g webpack
+npm install -g webpack webpack-dev-server
 npm install swoopcmi/swoop-boilerplate
 mkdir static && mkdir source
 ```
