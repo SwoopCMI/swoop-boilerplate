@@ -3,7 +3,6 @@ var webpack = require("webpack");
 var defaults = require("lodash.defaults");
 var getBaseConfig = require("./lib/base-config");
 var getPackage = require("./lib/get-package");
-var WebpackErrorNotificationPlugin = require("webpack-error-notification");
 
 module.exports = function (opts) {
     checkRequired(opts);
@@ -91,7 +90,6 @@ module.exports = function (opts) {
         config.plugins = config.plugins.concat([
             new webpack.HotModuleReplacementPlugin(),
             new webpack.NoErrorsPlugin(),
-            new webpack.ErrorNotificationPlugin(),
             new webpack.DefinePlugin(defaults(spec.definePlugin || {}, {}))
         ])
 
